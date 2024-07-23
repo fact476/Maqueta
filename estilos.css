@@ -2,17 +2,40 @@
 
 .texto{
    
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 140px;
     text-align: justify;
-    color: rgb(20, 20, 20);
+    color: rgb(244, 237, 237);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .principal{
    display: flex;
      
 }
 body{
-    background-image: url("fondo.jpg");
-    background-repeat: no-repeat;
+    background-image: url("fondos.jpg");
+   
 
+}
+.titulo{
+font-size: 60px;
+color: black;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.img1{
+    height: 193px;
+    width: 300px;
+    background-image: url("piedra.jpeg");
+    background-repeat: no-repeat;
+    float: right;
+}
+.img2{
+    height: 500px;
+    width: 500px;
+    background-image: url("medellin.jpeg");
+    background-repeat: no-repeat;
+    float: left;
 }
